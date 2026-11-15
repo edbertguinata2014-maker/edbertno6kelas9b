@@ -1,0 +1,37 @@
+body{
+ margin :0;
+ padding:0;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav.navbar ul {
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+    background: burlywood;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display: flex;
+    z-index: 1000;
+}
+
+nav.navbar li a {
+    display: block;
+    color: white;
+    padding:14px 16px;
+    text-decoration: none;
+}
+
+nav.navbar li a:hover{
+    background: burlywood;
+    color: black;
+}
+nav.navbar li a.active{
+    background:#9fe2bd;
+    color: tan;
+}
+.wadah-utamaa {
+    margin-top:60px;
+}
