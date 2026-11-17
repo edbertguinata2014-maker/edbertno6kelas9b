@@ -8,7 +8,7 @@ nav.navbar ul {
     list-style-type:none;
     margin:0;
     padding: 0;
-    background: burlywood;
+    background: rgb(68, 52, 30);
     position: fixed;
     top:0;
     left:0;
@@ -29,9 +29,61 @@ nav.navbar li a:hover{
     color: black;
 }
 nav.navbar li a.active{
-    background:#9fe2bd;
+    background:#25573a;
     color: tan;
 }
-.wadah-utamaa {
+.wadah-utama {
     margin-top:60px;
+}
+
+.header-halaman {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.header-halaman h1 {
+    color: burlywood;
+    margin: 0 0 10px 0;
+}
+
+.baris {
+    display: flex;
+    gap: 20px;
+}
+
+.kolom {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.kiri {
+    flex: 25%;
+}
+
+.tengah {
+    flex: 50%;
+}
+
+.kanan {
+    flex: 25%;
+}
+
+.kolom img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: burlywood;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
